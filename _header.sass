@@ -5,7 +5,7 @@ header
         align-items: center
         padding: 10px 0
         height: 70px
-        background-color: #212529 
+        background-color: #212529
         position: fixed
         right: 0
         left: 0
@@ -36,29 +36,28 @@ header
                 cursor: pointer
                 &:hover
                     color: #ffcb11
+    @media screen and ( max-width: 992px )
+        .menu
+            .imgbox
+                margin-left: 40px
+            .btn
+                display: flex
+                padding: 6px 10px
+                margin-right: 30px
+            nav
+                margin-right: 55px
+                display: none
+                a
+                    margin: 0 10px
     @media screen and ( max-width: 576px )
         .menu
             height: 70px
-            .btn
-                margin-right: 10px
-                padding:  6px 10px
             .imgbox
                 margin-left: 20px
     @media screen and ( max-width: 768px )
         .menu
             nav
                 display: none
-            .btn
-                display: flex
-                margin-right: 30px
+
             .imgbox
                 margin-left: 20px
-    @media screen and ( max-width: 992px )
-        .menu
-            nav
-                margin-right: 55px
-                a
-                    margin: 0 10px
-            .imgbox
-                margin-left: 40px
-    
