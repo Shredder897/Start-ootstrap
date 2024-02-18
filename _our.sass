@@ -1,7 +1,13 @@
 #our
     background-color: #c0c0c020
     .textbox
-        // 
+        h1
+            font-size: 50px
+            font-weight: 700
+        h3
+            font-size: 20px
+            color: #838489
+            margin: 20px 0 60px
     .box
         .imgbox
             width: 220px
@@ -10,20 +16,55 @@
         .textbox
             text-align: center
             margin: 15px 0
+            h2
+                font-size: 30px
+                font-weight: 700
+                margin: 20px 0 10px
+            h4
+                font-size: 20px
+                color: #838489
         ul
             display: flex
             justify-content: center
             li
-                margin: 10px
+                background-color: #000000
+                border-radius: 50%
+                margin: 10px 10px 0
                 .icon
                     display: flex
                     justify-content: center
                     align-items: center
+                    color: #ffff
+                    border-radius: 50%
+                    &:hover
+                        background-color: #424649
+                        transition: 0.5s
+                    i
+                        padding: 12px
+                        cursor: pointer
+                .right
+                    display: flex
+                    justify-content: center
+                    align-items: center
                     cursor: pointer
-                    // 
+                    color: #ffff
+                    i
+                        padding: 12px 15px
+                .left
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    cursor: pointer
+                    color: #ffff
+                    i
+                        padding: 12px 13px
     .textbox
         p
-            // 
+            font-size: 20px
+            color: #838489
+            width: 810px
+            margin-top: 20px
+            line-height: 1.4
     @media screen and ( max-width: 576px)
         .textbox
             //    
