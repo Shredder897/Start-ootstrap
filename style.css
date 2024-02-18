@@ -211,6 +211,15 @@ header .menu nav a:hover {
   padding-top: 40px;
   text-align: center;
 }
+#portfolio .textbox h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#portfolio .textbox h3 {
+  font-size: 20px;
+  color: #838489;
+  margin: 20px 0 60px;
+}
 #portfolio .textbox h2 {
   font-size: 29px;
   font-weight: 700;
