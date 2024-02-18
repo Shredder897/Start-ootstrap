@@ -98,9 +98,10 @@ header .menu nav a:hover {
   background-image: url(/assets/headerbg.jpg);
   background-position: center center;
   background-size: cover;
+  padding: 210px 0;
 }
 #welcome .box {
-  height: 700px;
+  margin-top: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -129,7 +130,13 @@ header .menu nav a:hover {
 #welcome .box .textbox .btn:hover {
   background-color: #c28d07;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
+  #welcome {
+    padding: 50px 0;
+  }
+  #welcome .box {
+    margin-top: 100px;
+  }
   #welcome .box .textbox h1 {
     font-size: 35px;
   }
